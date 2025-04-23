@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: url('imagenes/unnamed.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .menu {
+    background-color: #f1c27d;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  h1 {
+    font-variant: small-caps;
+    margin-bottom: 5px;
+  }
+  
+  .fecha {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 0;
+    height: 2px;
+    background-color: #8b0000;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 1em;
+  }
+
+
+  .final {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #8b0000;
+    text-decoration: underline;
+  }
